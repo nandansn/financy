@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Financy</title>
+
+    <!-- Style Link -->
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- Script -->
+
+    
+    
+</head>
+<body>
+    <div class="title-container">
+        <h1>Financy</h1>
+    </div>
+    <div class="input-container">
+        <div class="el_inputs">
+            <label for="p_amount">Amount</label>
+            <input type="number" name="p_amount" id="p_amount">
+        </div>
+        <div class="el_inputs">
+            <label for="i_rate">Interest Rate</label>
+            <input type="number" name="i_rate" id="i_rate">
+        </div>
+        <div class="el_inputs">
+            <label for="years">Years</label>
+            <input type="number" name="years" id="years">
+        </div>
+        <div class="el_inputs" id="b_calc">
+            <button>Nanda</button>
+        </div>
+        
+    </div>
+    <div class="output-container">
+        <p>
+            Per month: <span id="p_month"></span>
+            
+        </p>
+        <p>
+            Maturity amount: <span id="m_amount"></span>
+        </p>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+div.title-container {
+    display:block;
+    background-color: blue;
+    height: 30%;
+}
+
+
+div.input-container {
+    display: block;
+    margin-top: 10px;
+    background-color: rgb(176, 74, 127);
+    height: 35%;
+    width: 800px;
+    
+}
+
+div.el_inputs {
+    display: block;
+    
+    width: 600px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 25px;
+    width: 100px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    position: relative;
+    left:150px
+}
